@@ -22,8 +22,8 @@ This repository contains my daily Node.js practice code.
 
 ### How to Run
 
-node day1-writeFile.js
-node day2-http-routing.js
-node day3-form-post.js
+- node day1-writeFile.js
+- node day2-http-routing.js
+- node day3-form-post.js
 
 More updates coming daily 💪
