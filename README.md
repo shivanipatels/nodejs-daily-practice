@@ -19,4 +19,11 @@ This repository contains my daily Node.js practice code.
 - Saved data to file using fs.writeFileSync
 - Implemented redirect using statusCode 302
 
+
+### How to Run
+
+node day1-writeFile.js
+node day2-http-routing.js
+node day3-form-post.js
+
 More updates coming daily 💪
