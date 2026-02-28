@@ -13,5 +13,10 @@ This repository contains my daily Node.js practice code.
 - Handled different URLs
 - Returned HTML responses
 
+## Day 3
+- Created HTML form
+- Handled POST request
+- Saved data to file using fs.writeFileSync
+- Implemented redirect using statusCode 302
 
 More updates coming daily 💪
