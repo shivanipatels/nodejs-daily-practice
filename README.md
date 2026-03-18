@@ -26,10 +26,18 @@ This repository contains my daily Node.js practice code.
 * Handled 404 Not Found error for undefined URLs
 * Rendered HTML responses using `res.write()` and `res.end()`
 
+### Day 5
+* Implemented parsing of incoming request bodies using Streams and Buffers
+* Used `req.on('data')` to collect chunks and `req.on('end')` to process full body
+* Converted URL-encoded data into a JavaScript object using `URLSearchParams` and `Object.fromEntries()`
+* Stored submitted user details into a local file `user-details.txt` using `fs.writeFileSync()`
+* Handled HTTP POST method and practiced 302 redirection
+
 ### How to Run
 * node day1-writeFile.js
 * node day2-http-routing.js
 * node day3-form-post.js
 * node day4-multi-page-routing.js
+* node day5-parsing-request.js
 
 More updates coming daily 💪
