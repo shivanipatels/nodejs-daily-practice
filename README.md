@@ -33,11 +33,22 @@ This repository contains my daily Node.js practice code.
 * Stored submitted user details into a local file `user-details.txt` using `fs.writeFileSync()`
 * Handled HTTP POST method and practiced 302 redirection
 
+### Day 6 - Modular Server & Practice
+* **Learning Phase (`day-6/`):**
+  * Learned to split code into multiple files using `module.exports` and `require`.
+  * Created a clean `server.js` that uses an external `handler.js`.
+* **Practice Phase (`day-6-cal-practise/`):**
+  * Built a fully functional Modular Calculator.
+  * Separated Routing (`handler.js`) and Calculation Logic (`sum.js`).
+  * Handled numeric data conversion and 302 Redirection.
+
 ### How to Run
 * node day1-writeFile.js
 * node day2-http-routing.js
 * node day3-form-post.js
 * node day4-multi-page-routing.js
 * node day5-parsing-request.js
+* node day-6/app.js (Learning version)
+* node day-6-cal-practise/app.js (Calculator Practice)
 
 More updates coming daily 💪
