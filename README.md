@@ -42,6 +42,15 @@ This repository contains my daily Node.js practice code.
   * Separated Routing (`handler.js`) and Calculation Logic (`sum.js`).
   * Handled numeric data conversion and 302 Redirection.
 
+Day 7 - Express Middleware & Routing
+* Learned and implemented Express.js
+* Used middleware functions (app.use)
+* Logged request URL and method
+* Created GET routes (/, /contact-us)
+* Created POST route(/contact-us) for form submission
+* Built a simple contact form
+* Understood request-response cycle in Express
+
 ### How to Run
 * node day1-writeFile.js
 * node day2-http-routing.js
@@ -50,5 +59,6 @@ This repository contains my daily Node.js practice code.
 * node day5-parsing-request.js
 * node day-6/app.js (Learning version)
 * node day-6-cal-practise/app.js (Calculator Practice)
+* node day-7/npm start (Express project)
 
 More updates coming daily 💪
